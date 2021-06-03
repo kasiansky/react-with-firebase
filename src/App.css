@@ -1,0 +1,83 @@
+/* .App {
+  text-align: center;
+} */
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #eee;
+}
+#root,
+body {
+  background-color: #eee;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.app-navbar {
+  min-height: 70px;
+}
+
+.app-add-todo-form {
+  display: flex;
+  justify-content: space-around;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.app-add-todo-form__priority {
+  min-width: 100px;
+  text-align: left;
+}
+
+.app-todo-card {
+  margin: 30px 20px !important;
+  max-width: 800px;
+}
+
+.app-todo-card__action-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.app-add-todo {
+  margin: 0 20px 30px 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px;
+}
+
+.app-add-todo > h3 {
+  margin: 10px 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
